@@ -82,3 +82,28 @@ li {
   padding: 0.5rem;
   margin: 0.5rem 1rem;
 }
+
+/* ------------- Media Query ----------- */
+
+@media(max-width:768px){
+  body {
+    width: 100%;
+  }
+  .container-game{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-triqui{
+    width: 100%;
+  }
+  .board{
+    width: 100%;
+    height: 350px;
+  }
+  .info-wrapper {
+    text-align: center;
+  }
+}
